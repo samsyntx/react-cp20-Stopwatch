@@ -3,6 +3,9 @@
   margin: 0px;
   font-family: 'Roboto';
 }
+button {
+  cursor: pointer;
+}
 
 .main-div-bg-container {
   background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
@@ -61,6 +64,7 @@
 .orange {
   background-color: #eaa800;
 }
+
 @media all and (min-width: 768px) {
   .main-div-bg-container {
     background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
